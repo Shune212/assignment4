@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<style>
+h2{
+   text-align: center;
+    color:black;
+}
+body{
+     background-color:gainsboro ;
+    }
+.container{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+}
+.card{
+    border: 2px solid palevioletred;
+    width:250px;
+    margin:10px;
+    background:#fff;
+    text-align:center;
+}
+.read{
+    color:white;
+    background-color: palevioletred;
+    width: 100px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-color: palevioletred;
+}
+.calen{
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    border-bottom: 7px solid palevioletred;
+    height: 200px;
+  position: relative;
+}
+.text{
+    line-height: 20px;
+}
+img{
+    width: 250px;
+    height: 200px; 
+}
+h1{
+    position: absolute;
+    bottom:0px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-bottom: 2px;
+    color: white;
+    
+}
+</style>
+<body>
+    <h2>Flexbox Blog-Card</h2>
+    <div class="container">
+        <div class="card">
+            <div class="box">
+                <img src="new.png" alt="">
+                <h1 style="margin-left: 60px;">New York</h1>
+            </div>
+     <div class="calen">
+        <span><i class="fa fa-calendar"></i> AUG 4</span>
+        <span><i class="fa fa-heart"></i> 102</span>
+     </div>
+     <div class="text"><p>Lorem ipsum dolor sit amet, consectectur adipiscing elit.Si verbun sequimur, primum longius verbun praepositum quam bonum.</p>                
+     </div>
+     <button class="read" style="border-style: none;">READ MORE</button>
+        </div>
+    
+
+        <div class="card">
+            <div class="box">
+                <img src="san.png" alt="">
+                <h1>San Francisco</h1>
+            </div>
+     <div class="calen">
+        <span><i class="fa fa-calendar"></i> AUG 1</span>
+        <span><i class="fa fa-heart"></i> 265</span>
+     </div>
+     <div class="text"><p>Lorem ipsum dolor sit amet, consectectur adipiscing elit.Si verbun sequimur, primum longius verbun praepositum quam bonum.</p>                
+     </div>
+     <button class="read" style="border-style: none;">READ MORE</button>
+        </div>
+    </div>
+</body>
+</html>
